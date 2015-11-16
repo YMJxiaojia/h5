@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*download*/
+.download{position: relative;width: 100%;height: 2.57rem;margin: 0.77rem 0 0.88rem;}
+.download img{width: 2.27rem;height: 2.57rem;position: absolute;left: 50%;transform:translate(-50%);}
+.download-tip{text-align: center;}
+.download-tip span{font-size: 0.4rem;color: #333333;margin-right: 0.2rem;}
+.iphone-btn,.android-btn{width: 5.2rem;height: 0.9rem;background: #ffffff;border:1px solid #e0e0e0;font-size: 0.36rem;border-radius: 0.05rem;display: block;margin:0 auto;}
+.iphone-btn{margin:1.25rem auto 0.4rem;background: url(../img/iphone.png) no-repeat 0.32rem 0.16rem;background-size: 0.46rem 0.54rem;}
+.android-btn{background: url(../img/android.png) no-repeat 0.32rem 0.16rem;background-size: 0.46rem 0.57rem;}
+
+/*login*/
+.login-error{background: #fff798;color: #ff6600;line-height: 0.8rem;position: absolute;width: 100%;}
+.login-error span{margin-left: 0.6rem;}
+.login-form{width: 5.2rem;margin: 1.1rem auto 0}
+.forget-password{color: #ff6600;float: right;margin-top: 0.36rem;}
+.other-login span{line-height:1.52rem;color: #999999;padding-left: 0.6rem;}
+.other-login{position: relative;box-sizing:border-box;border-top: 1px solid #e0e0e0;margin-top: 1.06rem;}
+.other-login a{display: inline-block;width: 0.7rem;height: 0.7rem;border-radius: 50%;position: absolute;top: 50%;margin-top: -0.35rem;}
+.login-qq{background: url(../img/qq.png) no-repeat #6082a7 0.13rem 0.1rem;background-size:0.45rem 0.5rem;left: 3.45rem;}
+.login-weixin{background: url(../img/weixin.png) no-repeat #86c610 0.1rem 0.15rem;background-size: 0.5rem 0.4rem;left: 4.45rem;}
