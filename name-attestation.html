@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/login.css">
+		<script src='js/commonJs.js'></script>
+		<script>
+			window.onload=function () {
+				var oBtn=document.getElementsByClassName('modify');
+				oBtn[0].addEventListener('touchend',function () {			
+					this.innerHTML='确定';
+					this.style.backgroundColor='#77bbff';				
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<header class="head">
+			<a href="javascript:;" class="hd-back">返回</a><span>实名认证</span>
+		</header>
+		<section class="main">
+			<div class="important-tip">
+				重要提示：账户名是您在东方汇平台的唯一身份识别代号，仅此一次修改机会！
+			</div>
+			<form class="login-form clear attention-box">
+				<div class="amend-box">
+					<input type="text" class="inp-long" placeholder="账户名：DFH18900"><span class='modify'>修改</span>
+				</div>
+				<input type="text" name="" id="" placeholder="请输入真实姓名" class="inp-long">
+				<input type="text" name="" id="" placeholder="请输入身份证号" class="inp-long">
+				<button class="btn">立即认证</button>
+			</form>
+		</section>
+		<footer class='footer'>
+			<div class="function-column">
+				<div class="tel-number">
+					<div></div>
+					<span>客服电话</span>
+				</div>
+				<div class="serve-number">
+					<div></div>
+					<span>服务号</span>
+				</div>
+				<div class="app-download">
+					<div></div>
+					<span>APP下载</span>		
+				</div>
+				<div class="back-index">
+					<div></div>
+					<span>返回首页</span>
+				</div>
+			</div>
+			<div class="company clear">
+				<span>东方邦信金融科技(上海)有限公司</span>
+				<b>沪ICP备14012529号</b>
+			</div>
+		</footer>
+	</body>
+</html>
