@@ -1,0 +1,183 @@
+@charset 'utf-8';
+body {
+    background: #fff;
+}
+
+.poduct {
+    padding-bottom: .94rem;
+    background: #fff;
+}
+
+.product-list {
+    border-top: 1px solid #e0e0e0;
+    background: #fff;
+}
+
+.product-list li {
+    position: relative;
+    padding: 0 .3rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-list a {
+    display: block;
+}
+
+.list-tit {
+    height: 1.13rem;
+}
+
+.list-tit h2 {
+    font-size: .26rem;
+    line-height: 1.13rem;
+    float: left;
+    color: #000;
+    ;
+}
+
+.list-tit span {
+    font-size: .18rem;
+    line-height: .3rem;
+    float: right;
+    height: .3rem;
+    margin-top: .45rem;
+    margin-left: .1rem;
+    padding: 0 .12rem;
+    color: #fff;
+    border-radius: .3rem;
+}
+
+.list-tit .green-icon2 {
+    padding: 0 .1rem 0 .3rem;
+}
+
+.product-list dl {
+    margin-bottom: .53rem;
+}
+
+.product-list dt {
+    float: left;
+    width: 2.22rem;
+}
+
+.product-list dd {
+    float: left;
+    box-sizing: border-box;
+    width: 3.58rem;
+    padding-left: .3rem;
+    border-left: 1px solid #e0e0e0;
+}
+
+.product-list dt h3 {
+    font-size: .37rem;
+    line-height: .43rem;
+    margin-bottom: .07rem;
+    color: #f60;
+}
+
+.product-list dt h3 span {
+    font-size: .2rem;
+    color: #fb0;
+}
+
+.product-list dd p,
+.product-list dt p {
+    font-size: .22rem;
+    line-height: .5rem;
+    color: #999;
+}
+
+.product-list dd p span {
+    color: #333;
+}
+
+.detail-icon {
+    position: absolute;
+    top: 1.5rem;
+    right: .3rem;
+    width: 13px;
+    height: 22px;
+    background: url(../img/left-arrow.jpg) no-repeat;
+}
+
+.progress-box {
+    position: relative;
+    width: 100%;
+    height: 1px;
+}
+
+.progress-box span {
+    font-size: .2rem;
+    position: absolute;
+    bottom: .15rem;
+    left: 10%;
+    display: block;
+    width: 40px;
+    text-align: center;
+    color: #fb0;
+}
+
+.product-list .line {
+    position: relative;
+    bottom: -1px;
+    width: 10%;
+    height: 1px;
+    background: #fb0;
+}
+
+.progress-bar {
+    position: absolute;
+    top: -7px;
+    left: 10%;
+    width: 40px;
+    height: 15px;
+    border-radius: 15px;
+    background: #fb0;
+}
+
+.progress-bar span {
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    width: 80px;
+    text-align: center;
+    color: #fb0;
+}
+
+.blue-icon {
+    background: #7bf;
+}
+
+.green-icon {
+    background: #9d3;
+}
+
+.pro-detail {
+    margin-top: .36rem;
+}
+
+.pro-detail li {
+    line-height: .6rem;
+    float: left;
+    width: 100%;
+    padding: 0 .3rem;
+}
+
+.pro-detail li span {
+    font-size: .28rem;
+    float: left;
+    color: #666;
+}
+
+.pro-detail li strong {
+    font-weight: 400;
+    float: right;
+    color: #000;
+}
+
+.pro-detail .pro-detail-num {
+    color: #f60;
+}
+.pro-btn{width: 5.8rem;margin:0 auto;display: block;background: #cccccc;color: #ffffff;font-size: 0.36rem;height: 0.8rem;border-radius: 0.1rem;margin-top: 0.5rem;}

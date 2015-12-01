@@ -1,478 +1,401 @@
 @charset "utf-8";
+
 /*reset-password*/
-.password-bg
-{
+
+.password-bg {
     position: absolute;
     z-index: 1;
     bottom: 1.80rem;
-
     width: 100%;
     height: 50%;
-
     background: url(../img/password-bg.png) no-repeat 0 bottom;
 }
 
-/*download*/
-.download
-{
-    position: relative;
 
+/*download*/
+
+.download {
+    position: relative;
     width: 100%;
     height: 2.57rem;
     margin: .77rem 0 .88rem;
 }
-.download img
-{
+
+.download img {
     position: absolute;
     left: 50%;
-
     width: 2.27rem;
     height: 2.57rem;
-
     margin-left: -1.135rem;
 }
 
-.download-tip
-{
+.download-tip {
     text-align: center;
 }
-.download-tip span
-{
+
+.download-tip span {
     font-size: .4rem;
-
     margin-right: .2rem;
-
     color: #333;
 }
+
 .iphone-btn,
-.android-btn
-{
+.android-btn {
     font-size: .36rem;
-
     display: block;
-
     width: 5.2rem;
     height: .9rem;
     margin: 0 auto;
-
     border: 1px solid #e0e0e0;
     border-radius: .05rem;
     background: #fff;
 }
-.iphone-btn
-{
-    position: relative;
 
+.iphone-btn {
+    position: relative;
     margin: 1.25rem auto .4rem;
 }
 
-.android-btn
-{
+.android-btn {
     position: relative;
 }
-.iphone-btn
-{
-    margin: 1.25rem auto .4rem;
 
+.iphone-btn {
+    margin: 1.25rem auto .4rem;
     background: url(../img/iphone.png) no-repeat .32rem .16rem;
     background-size: .46rem .54rem;
 }
-.android-btn
-{
+
+.android-btn {
     background: url(../img/android.png) no-repeat .32rem .16rem;
     background-size: .46rem .57rem;
 }
 
 
-
 /*login*/
-.login-error
-{
+
+.login-error {
     line-height: .8rem;
-
     position: absolute;
-
     width: 100%;
-
     color: #f60;
     background: #fff798;
 }
-.login-error span
-{
+
+.login-error span {
     margin-left: .6rem;
 }
-.login-form
-{
+
+.login-form {
     position: relative;
     z-index: 10;
-
     width: 5.2rem;
     margin: 1.1rem auto 0;
 }
-.forget-password
-{
+
+.forget-password {
     float: right;
-
     margin-top: .36rem;
-
     color: #f60;
 }
-.other-login span
-{
+
+.other-login span {
     line-height: 1.52rem;
-
     padding-left: .6rem;
-
     color: #999;
 }
-.other-login
-{
-    position: relative;
 
+.other-login {
+    position: relative;
     box-sizing: border-box;
     margin-top: 1.06rem;
-
     border-top: 1px solid #e0e0e0;
 }
-.other-login a
-{
+
+.other-login a {
     position: absolute;
     top: 50%;
-
     display: inline-block;
-
     width: .7rem;
     height: .7rem;
     margin-top: -.35rem;
-
     border-radius: 50%;
 }
-.login-qq
-{
-    left: 3.45rem;
 
+.login-qq {
+    left: 3.45rem;
     background: url(../img/qq.png) no-repeat #6082a7 .13rem .1rem;
     background-size: .45rem .5rem;
 }
-.login-weixin
-{
-    left: 4.45rem;
 
+.login-weixin {
+    left: 4.45rem;
     background: url(../img/weixin.png) no-repeat #86c610 .1rem .15rem;
     background-size: .5rem .4rem;
 }
 
 
-
 /*success-bind*/
-.face-box
-{
+
+.face-box {
     width: 100%;
     margin-top: 1.9rem;
 }
-.face-img
-{
-    display: block;
 
+.face-img {
+    display: block;
     width: 1.1rem;
     height: 1.1rem;
     margin: 0 auto;
 }
-.face-explain
-{
+
+.face-explain {
     font-size: .4rem;
-
     margin-top: .33rem;
-
     text-align: center;
-
     color: #f60;
 }
-.face-close
-{
+
+.face-close {
     font-size: .28rem;
-
     margin-top: .54rem;
-
     text-align: center;
-
     color: #999;
 }
 
 
 /*open-jump*/
-.jump-box
-{
+
+.jump-box {
     font-size: .28rem;
-
     margin-top: 3.2rem;
-
     text-align: center;
-
     color: #999;
 }
 
 
-
 /*name-attention*/
-.important-tip
-{
-    font-size: .28rem;
 
+.important-tip {
+    font-size: .28rem;
     width: 5.2rem;
     height: .9rem;
     margin: .55rem auto 0;
-
     color: #f60;
 }
-.make-tip
-{
-    font-size: .28rem;
 
+.make-tip {
+    font-size: .28rem;
     width: 5.2rem;
     height: .9rem;
     margin: .55rem auto 0;
-
     color: #f60;
 }
-.amend-box .inp-long
-{
+
+.amend-box .inp-long {
     float: left;
-
     width: 4rem;
 }
-.amend-box span
-{
-    line-height: .8rem;
 
+.amend-box span {
+    line-height: .8rem;
     display: block;
     float: right;
-
     width: 1.1rem;
-
     text-align: center;
-
     color: #fff;
     border-radius: 5px;
     background: #999;
 }
-.main .attention-box
-{
+
+.main .attention-box {
     margin-top: 0;
 }
 
 
 /*bind-tel*/
-.user-title
-{
+
+.user-title {
     font-size: .32rem;
     font-weight: 400;
-
     margin-top: .53rem;
-
     text-align: center;
 }
-.main .important-tip
-{
+
+.main .important-tip {
     color: #666;
 }
 
+
 /*next-tel*/
-.telphone-box
-{
+
+.telphone-box {
     width: 5.2rem;
     margin: 1.46rem auto .2rem;
 }
-.telphone-box strong
-{
+
+.telphone-box strong {
     font-weight: 400;
-
     margin-left: .15rem;
-
     color: #f60;
 }
 
 
 /*new-registerbind*/
-.attention-box .telcode .inp-long
-{
-    float: left;
 
+.attention-box .telcode .inp-long {
+    float: left;
     width: 3.27rem;
 }
-.attention-box .telcode span
-{
-    line-height: .8rem;
 
+.attention-box .telcode span {
+    line-height: .8rem;
     display: block;
     float: right;
-
     box-sizing: border-box;
     width: 1.77rem;
-
     text-align: center;
-
     color: #666;
     border: 1px solid #ccc;
     border-radius: 5px;
     background: #f9f9f9;
 }
-.agree-protocol
-{
+
+.agree-protocol {
     margin-top: .35rem;
 }
-.agree-protocol span
-{
+
+.agree-protocol span {
     color: #f60;
 }
 
 
 /*forget-password*/
-.main .reste-password
-{
+
+.main .reste-password {
     margin-top: 1.1rem;
 }
-.reste-password .telcode span
-{
+
+.reste-password .telcode span {
     color: #fff;
     background: #7bf;
 }
 
 
-
 /*register*/
-.reste-password .telcode b
-{
+
+.reste-password .telcode b {
     display: block;
     float: right;
-
     box-sizing: border-box;
     width: 1.77rem;
     height: .8rem;
-
     border: 1px solid #e0e0e0;
 }
-.agree-protocol strong
-{
+
+.agree-protocol strong {
     display: block;
     float: left;
-
     box-sizing: border-box;
     width: .24rem;
     height: .24rem;
     margin: .05rem .16rem 0 0;
-
     border: 1px solid #ccc;
 }
-.agree-protocol .arrow-bg
-{
+
+.agree-protocol .arrow-bg {
     background: url(../img/arrow-bg.png) no-repeat center center;
     background-size: .18rem .16rem;
 }
 
 
 /*success-register*/
-.step-box
-{
-    height: 1.43rem;
 
+.step-box {
+    height: 1.43rem;
     border-bottom: 1px solid #e0e0e0;
 }
-.step-attestation
-{
+
+.step-attestation {
     box-sizing: border-box;
     width: 5.2rem;
     height: 1.43rem;
     margin: 0 auto;
 }
+
 .step-attestation .step1,
 .step-attestation .step2,
-.step-attestation .step3
-{
+.step-attestation .step3 {
     float: left;
-
     width: 1.73rem;
 }
-.step-line
-{
-    width: 1px ;
+
+.step-line {
+    width: 1px;
     height: .3rem;
     margin: 0 auto;
-
     background: #ccc;
 }
-.step-attestation p
-{
-    text-align: center;
 
+.step-attestation p {
+    text-align: center;
     color: #999;
 }
-.step-attestation .active p
-{
+
+.step-attestation .active p {
     color: #f60;
 }
-.step-attestation .active .step-number
-{
+
+.step-attestation .active .step-number {
     color: #fff;
     background: #f60;
 }
-.step-number
-{
-    line-height: .45rem;
 
+.step-number {
+    line-height: .45rem;
     width: .45rem;
     height: .45rem;
     margin: .06rem auto .17rem;
-
     text-align: center;
-
     color: #ccc;
     border-radius: 50%;
     background: #fff;
 }
-.main .step-facebox
-{
+
+.main .step-facebox {
     margin-top: .5rem;
 }
-.main .step-facebox .face-close
-{
-    margin-top: .24rem;
 
+.main .step-facebox .face-close {
+    margin-top: .24rem;
     color: #666;
 }
-.main .step-btn
-{
+
+.main .step-btn {
     width: 2rem;
     margin-top: .6rem;
 }
-.product-list-bottom
-{
-    line-height: 1rem;
 
+.product-list-bottom {
+    line-height: 1rem;
     position: absolute;
     bottom: 1.85rem;
-
     box-sizing: border-box;
     width: 100%;
     height: 1rem;
-
     text-align: center;
-
     border-top: 1px solid #eee;
     background: #fff;
 }
-.product-list-bottom a
-{
-    text-decoration: underline;
 
+.product-list-bottom a {
+    text-decoration: underline;
     color: #666;
 }
-.main .step2-btn
-{
+
+.main .step2-btn {
     width: 2rem;
     margin-top: .6rem;
-
     color: #fff;
     background: #7bf;
 }
-
