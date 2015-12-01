@@ -4,11 +4,23 @@
 
 .password-bg {
     position: absolute;
-    z-index: 1;
     bottom: 1.80rem;
+    z-index: 1;
+
     width: 100%;
     height: 50%;
+
     background: url(../img/password-bg.png) no-repeat 0 bottom;
+}
+.password-error {
+    position: absolute;
+    bottom: .9rem;
+
+    width: 100%;
+
+    font-size: .12rem;
+
+    color: #f60;
 }
 
 
@@ -16,17 +28,19 @@
 
 .download {
     position: relative;
+
+    margin: .77rem 0 .88rem;
     width: 100%;
     height: 2.57rem;
-    margin: .77rem 0 .88rem;
 }
 
 .download img {
     position: absolute;
     left: 50%;
+
+    margin-left: -1.135rem;
     width: 2.27rem;
     height: 2.57rem;
-    margin-left: -1.135rem;
 }
 
 .download-tip {
@@ -34,25 +48,31 @@
 }
 
 .download-tip span {
-    font-size: .4rem;
     margin-right: .2rem;
+
+    font-size: .4rem;
+
     color: #333;
 }
 
 .iphone-btn,
 .android-btn {
-    font-size: .36rem;
     display: block;
-    width: 5.2rem;
-    height: .9rem;
+
     margin: 0 auto;
     border: 1px solid #e0e0e0;
     border-radius: .05rem;
+    width: 5.2rem;
+    height: .9rem;
+
+    font-size: .36rem;
+
     background: #fff;
 }
 
 .iphone-btn {
     position: relative;
+
     margin: 1.25rem auto .4rem;
 }
 
@@ -62,6 +82,7 @@
 
 .iphone-btn {
     margin: 1.25rem auto .4rem;
+
     background: url(../img/iphone.png) no-repeat .32rem .16rem;
     background-size: .46rem .54rem;
 }
@@ -75,61 +96,69 @@
 /*login*/
 
 .login-error {
-    line-height: .8rem;
     position: absolute;
+    bottom: 1.6rem;
+
     width: 100%;
+
+    font-size: .12rem;
+
     color: #f60;
-    background: #fff798;
 }
-
-.login-error span {
-    margin-left: .6rem;
-}
-
 .login-form {
     position: relative;
     z-index: 10;
-    width: 5.2rem;
+
     margin: 1.1rem auto 0;
+    width: 5.2rem;
 }
 
 .forget-password {
     float: right;
+
     margin-top: .36rem;
+
     color: #f60;
 }
 
 .other-login span {
-    line-height: 1.52rem;
     padding-left: .6rem;
+
+    line-height: 1.52rem;
+
     color: #999;
 }
 
 .other-login {
     position: relative;
-    box-sizing: border-box;
+
     margin-top: 1.06rem;
+    box-sizing: border-box;
     border-top: 1px solid #e0e0e0;
 }
 
 .other-login a {
+    display: inline-block;
+
     position: absolute;
     top: 50%;
-    display: inline-block;
-    width: .7rem;
-    height: .7rem;
+
     margin-top: -.35rem;
     border-radius: 50%;
+    width: .7rem;
+    height: .7rem;
 }
 
 .login-qq {
     left: 3.45rem;
+
     background: url(../img/qq.png) no-repeat #6082a7 .13rem .1rem;
     background-size: .45rem .5rem;
 }
 
 .login-weixin {
     left: 4.45rem;
+
     background: url(../img/weixin.png) no-repeat #86c610 .1rem .15rem;
     background-size: .5rem .4rem;
 }
@@ -138,28 +167,33 @@
 /*success-bind*/
 
 .face-box {
-    width: 100%;
     margin-top: 1.9rem;
+    width: 100%;
 }
 
 .face-img {
     display: block;
+
+    margin: 0 auto;
     width: 1.1rem;
     height: 1.1rem;
-    margin: 0 auto;
 }
 
 .face-explain {
-    font-size: .4rem;
     margin-top: .33rem;
+
+    font-size: .4rem;
     text-align: center;
+
     color: #f60;
 }
 
 .face-close {
-    font-size: .28rem;
     margin-top: .54rem;
+
+    font-size: .28rem;
     text-align: center;
+
     color: #999;
 }
 
@@ -167,9 +201,11 @@
 /*open-jump*/
 
 .jump-box {
-    font-size: .28rem;
     margin-top: 3.2rem;
+
+    font-size: .28rem;
     text-align: center;
+
     color: #999;
 }
 
@@ -177,34 +213,40 @@
 /*name-attention*/
 
 .important-tip {
-    font-size: .28rem;
+    margin: .55rem auto 0;
     width: 5.2rem;
     height: .9rem;
-    margin: .55rem auto 0;
+
+    font-size: .28rem;
+
     color: #f60;
 }
 
 .make-tip {
-    font-size: .28rem;
+    margin: .55rem auto 0;
     width: 5.2rem;
     height: .9rem;
-    margin: .55rem auto 0;
+
+    font-size: .28rem;
+
     color: #f60;
 }
 
 .amend-box .inp-long {
     float: left;
-    width: 4rem;
 }
 
 .amend-box span {
-    line-height: .8rem;
     display: block;
     float: right;
-    width: 1.1rem;
-    text-align: center;
-    color: #fff;
+
     border-radius: 5px;
+    width: 1.1rem;
+
+    line-height: .8rem;
+    text-align: center;
+
+    color: #fff;
     background: #999;
 }
 
@@ -216,9 +258,10 @@
 /*bind-tel*/
 
 .user-title {
+    margin-top: .53rem;
+
     font-size: .32rem;
     font-weight: 400;
-    margin-top: .53rem;
     text-align: center;
 }
 
@@ -230,13 +273,15 @@
 /*next-tel*/
 
 .telphone-box {
-    width: 5.2rem;
     margin: 1.46rem auto .2rem;
+    width: 5.2rem;
 }
 
 .telphone-box strong {
-    font-weight: 400;
     margin-left: .15rem;
+
+    font-weight: 400;
+
     color: #f60;
 }
 
@@ -245,19 +290,23 @@
 
 .attention-box .telcode .inp-long {
     float: left;
+
     width: 3.27rem;
 }
 
 .attention-box .telcode span {
-    line-height: .8rem;
     display: block;
     float: right;
+
     box-sizing: border-box;
-    width: 1.77rem;
-    text-align: center;
-    color: #666;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 1.77rem;
+
+    line-height: .8rem;
+    text-align: center;
+
+    color: #666;
     background: #f9f9f9;
 }
 
@@ -287,58 +336,72 @@
 .reste-password .telcode b {
     display: block;
     float: right;
+
     box-sizing: border-box;
+    border: 1px solid #e0e0e0;
     width: 1.77rem;
     height: .8rem;
-    border: 1px solid #e0e0e0;
 }
 
 .agree-protocol strong {
     display: block;
     float: left;
+
+    margin: .05rem .16rem 0 0;
     box-sizing: border-box;
+    border: 1px solid #ccc;
     width: .24rem;
     height: .24rem;
-    margin: .05rem .16rem 0 0;
-    border: 1px solid #ccc;
 }
 
 .agree-protocol .arrow-bg {
     background: url(../img/arrow-bg.png) no-repeat center center;
     background-size: .18rem .16rem;
 }
+.phone-error {
+    position: absolute;
+    bottom: 4rem;
 
+    width: 100%;
+
+    font-size: .12rem;
+
+    color: #f60;
+}
 
 /*success-register*/
 
 .step-box {
-    height: 1.43rem;
     border-bottom: 1px solid #e0e0e0;
+    height: 1.43rem;
 }
 
 .step-attestation {
+    margin: 0 auto;
     box-sizing: border-box;
     width: 5.2rem;
     height: 1.43rem;
-    margin: 0 auto;
 }
 
 .step-attestation .step1,
 .step-attestation .step2,
 .step-attestation .step3 {
     float: left;
+
     width: 1.73rem;
 }
 
 .step-line {
+    margin: 0 auto;
     width: 1px;
     height: .3rem;
-    margin: 0 auto;
+
     background: #ccc;
 }
 
 .step-attestation p {
     text-align: center;
+
     color: #999;
 }
 
@@ -352,13 +415,15 @@
 }
 
 .step-number {
-    line-height: .45rem;
+    margin: .06rem auto .17rem;
+    border-radius: 50%;
     width: .45rem;
     height: .45rem;
-    margin: .06rem auto .17rem;
+
+    line-height: .45rem;
     text-align: center;
+
     color: #ccc;
-    border-radius: 50%;
     background: #fff;
 }
 
@@ -368,34 +433,40 @@
 
 .main .step-facebox .face-close {
     margin-top: .24rem;
+
     color: #666;
 }
 
 .main .step-btn {
-    width: 2rem;
     margin-top: .6rem;
+    width: 2rem;
 }
 
 .product-list-bottom {
-    line-height: 1rem;
     position: absolute;
     bottom: 1.85rem;
+
     box-sizing: border-box;
+    border-top: 1px solid #eee;
     width: 100%;
     height: 1rem;
+
+    line-height: 1rem;
     text-align: center;
-    border-top: 1px solid #eee;
+
     background: #fff;
 }
 
 .product-list-bottom a {
     text-decoration: underline;
+
     color: #666;
 }
 
 .main .step2-btn {
-    width: 2rem;
     margin-top: .6rem;
+    width: 2rem;
+
     color: #fff;
     background: #7bf;
 }

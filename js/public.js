@@ -18,22 +18,22 @@ $(function() {
 			$('#m-login').remove();
 		});
 	});
-	$('.modify').mousedown(function() {
-		if ($('.modify').text()=='修改') {
-			$('.account-name').prop('disabled', false);
-			$(this).html('确定');			
-			$(this).css('background', '#77bbff');
-		}else{
-			$(this).css('background', '#999');
-			$('.account-name').prop('disabled', true);
-			$('.account-name').off( "blur" );
-		}
-	});
-	$('.account-name').blur(function() {
-		$('.modify').html('修改');
-		$('.modify').css('background', '#999');
-		$('.account-name').val('');
-		$('.account-name').prop('disabled', true);
-	});
+	// $('.modify').mousedown(function() {
+	// 	if ($('.modify').text()=='修改') {
+	// 		$('.account-name').prop('disabled', false);
+	// 		$(this).html('确定');			
+	// 		$(this).css('background', '#77bbff');
+	// 	}else{
+	// 		$(this).css('background', '#999');
+	// 		$('.account-name').prop('disabled', true);
+	// 		$('.account-name').off( "blur" );
+	// 	}
+	// });
+	// $('.account-name').blur(function() {
+	// 	$('.modify').html('修改');
+	// 	$('.modify').css('background', '#999');
+	// 	$('.account-name').val('');
+	// 	$('.account-name').prop('disabled', true);
+	// });
 
 });

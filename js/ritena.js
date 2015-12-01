@@ -19,7 +19,6 @@ if (docEl.clientWidth <= 640) {
     fontEl.innerHTML = 'html{font-size:' + 64 + 'px!important;}';
 }
 
-//alert(dpr);
 // 给js调用的，某一dpr下rem和px之间的转换函数
 window.rem2px = function(v) {
     v = parseFloat(v);

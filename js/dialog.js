@@ -24,7 +24,7 @@ function openNew(str){
 		document.body.removeChild(oLogin);
 		document.body.removeChild(oMask);
 	};				
-};
+}
 
 					
 
