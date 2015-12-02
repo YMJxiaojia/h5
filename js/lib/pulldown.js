@@ -14,17 +14,17 @@
                     callback : function() {
 
                     }
-                }
+                };
                 $.extend(optionsDefault,options);
                 $(window).on("scroll",function() {
                     if(( document.body.scrollTop + self.height() > $(document).height()-40) && !ajaxing) {
                         //滚动条拉到离底40像素内，而且没ajax中
-                         $(optionsDefault.wrapper).append('<div class="loading-more"></div> ');//出现加载中
+                        $(optionsDefault.wrapper).append('<div class="loading-more"></div> ');//出现加载中
 
                         var data = {
                             start : optionsDefault.start+optionsDefault.number*num,
                             end : optionsDefault.number
-                        }
+                        };
                         $.ajax({
                             type: 'POST',
                             url: optionsDefault.url,
@@ -45,9 +45,9 @@
                                 $(optionsDefault.wrapper).find(".loading-more").addClass('loading-noBg').html("加载失败！");
                             }
 
-                        })
+                        });
                     }
-                })
+                });
             }
-        })
+        });
 }());
